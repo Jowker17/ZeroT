@@ -98,10 +98,9 @@ export const quickPrompts = [
 ];
 
 export const navLinks = [
-  { label: "Product", href: "#features" },
-  { label: "How It Works", href: "#workflow" },
-  { label: "Readiness", href: "#dashboard" },
-  { label: "Reports", href: "#trust" },
-  { label: "Data Source", href: "#data-source" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Threat Scanner", href: "/scanner" },
+  { label: "Product", href: "/#features" },
+  { label: "How It Works", href: "/#workflow" },
+  { label: "Readiness", href: "/#dashboard" },
+  { label: "FAQ", href: "/#faq" },
 ];
