@@ -1,0 +1,10 @@
+[
+  {
+    "reportId": "rep_301",
+    "submittedBy": "sarah.j@acmelogistics.com",
+    "timestamp": "2026-03-15T14:30:00Z",
+    "sourceType": "email",
+    "contentPreview": "Dear Customer, your invoice is overdue...",
+    "aiAnalysisStatus": "pending"
+  }
+]

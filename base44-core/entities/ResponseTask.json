@@ -1,0 +1,18 @@
+[
+  {
+    "taskId": "task_101",
+    "title": "Revoke compromised session tokens",
+    "status": "in_progress",
+    "assignedTo": "IT Admin",
+    "priority": "High",
+    "relatedIncident": "inc_205"
+  },
+  {
+    "taskId": "task_102",
+    "title": "Notify impacted users of phishing attempt",
+    "status": "completed",
+    "assignedTo": "HR",
+    "priority": "Medium",
+    "relatedIncident": "inc_204"
+  }
+]

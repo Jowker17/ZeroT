@@ -1,0 +1,10 @@
+{
+  "companyId": "comp_98765",
+  "name": "Acme Logistics SME",
+  "industry": "Logistics",
+  "employeeCount": 45,
+  "readinessScore": 72,
+  "lastAssessmentDate": "2026-03-10T08:00:00Z",
+  "activeControls": ["MFA", "Email Filtering", "Basic EDR"],
+  "missingControls": ["Security Training", "Incident Response Plan"]
+}
