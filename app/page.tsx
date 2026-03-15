@@ -211,15 +211,7 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* 7. Q&A Assistant */}
-      <Section
-        id="assistant"
-        title="Ask ZeroT Anything"
-        subtitle="Have questions about how ZeroT works? Our assistant can help — right here, right now."
-        className="bg-gradient-to-b from-slate-50/50 to-transparent"
-      >
-        <ChatWidget />
-      </Section>
+      {/* Q&A Assistant has been moved to a global floating widget at the bottom */}
 
       {/* 8. FAQ */}
       <Section
@@ -265,6 +257,7 @@ export default function Home() {
         </div>
       </section>
 
+      <ChatWidget />
       {/* 10. Footer */}
       <Footer />
     </>

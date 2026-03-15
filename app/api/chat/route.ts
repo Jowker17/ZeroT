@@ -6,7 +6,7 @@ const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
 export async function POST(req: NextRequest) {
   try {
-    const { messages } = await req.json();
+    const { messages, model } = await req.json();
 
     if (!messages || !Array.isArray(messages) || messages.length === 0) {
       return NextResponse.json(
@@ -22,8 +22,10 @@ export async function POST(req: NextRequest) {
       })
     );
 
+    const selectedModel = model === "gemini-2.5-flash" ? "gemini-2.5-flash" : "gemini-2.5-flash-lite";
+
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-lite",
+      model: selectedModel,
       contents,
       config: {
         systemInstruction: CHAT_SYSTEM_PROMPT,
