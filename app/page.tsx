@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import OsintFeed from "@/components/osint-feed";
 import Hero from "@/components/hero";
 import Section from "@/components/section";
 import FeatureCard from "@/components/feature-card";
@@ -24,6 +25,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
+
+      <div className="pt-16">
+        <OsintFeed />
+      </div>
 
       {/* 1. Hero */}
       <Hero />

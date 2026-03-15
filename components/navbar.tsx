@@ -36,8 +36,12 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Login button */}
+          {/* Action buttons */}
           <div className="hidden md:flex items-center gap-3">
+            <a href="/scanner" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-bold border border-red-100">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+              Quick Report
+            </a>
             <Button variant="primary" size="sm" href={loginUrl}>
               Login
             </Button>
