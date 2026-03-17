@@ -72,6 +72,12 @@ graph TD
 
 ---
 
+## 📁 Documentation & Pitch Deck
+
+- 📄 **[ZeroT Pitch Deck (PDF)](docs/Zero-Threat-Shield.pdf)** – Detailed overview of our value proposition, target market, and product demonstration. (Video demonstration included in the presentation).
+
+---
+
 ## ⚙️ Local Development
 
 1. **Clone & Install:**
